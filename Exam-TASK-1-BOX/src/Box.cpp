@@ -8,16 +8,22 @@
 #include "Box.h"
 
 istream& operator>>(istream& input, Box& result) {
-	input >> setw(3) >> result.lenght;
+	// [x,y,z]
+	input.ignore(1);                     //[
+	input >> setw(1) >> result.lenght;   // x
+	input.ignore(1);                     // ,
+	input >> setw(1) >> result.width;    // y
+	input.ignore(1);                     // ,
+	input >> setw(1) >> result.hight;    // z
+	input.ignore(1);                     // ]
 	input.ignore(1);
-	input >> setw(3) >> result.width;
-	input.ignore(1);
-	input >> setw(3) >> result.hight;
 
 	return input;
+
 }
 ostream& operator<<(ostream& output, const Box& result) {
-	output << result.lenght << "." << result.width << "." << result.hight;
+	output << " [ " << result.lenght << "," << result.width << ","
+			<< result.hight << " ] ";
 
 	return output;
 }

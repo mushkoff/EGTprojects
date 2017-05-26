@@ -1,0 +1,187 @@
+<students xmlns:students="urn:students" xmlns:exams="urn:exams">
+
+<students:student>
+<students:firstName>Ivan</students:firstName>
+<students:lastName>Petrov</students:lastName>
+<students:gender>Male</students:gender>
+<students:birthdate>19.02.1995</students:birthdate>
+<students:phone>0875124135</students:phone>
+<students:email>ipetrov@uni.bg</students:email>
+<students:course>3</students:course>
+<students:specialty>Telecomunications</students:specialty>
+<students:facultyNumber>1200</students:facultyNumber>
+<exams:examList>
+
+<exams:exam>
+<exams:name>Mathematics</exams:name>
+<exams:lecturer>Prof. Ronkov</exams:lecturer>
+<exams:grade>5</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Physics</exams:name>
+<exams:lecturer>Prof. Koprinkov</exams:lecturer>
+<exams:grade>4</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Australian</exams:name>
+<exams:lecturer>doc. Dundy</exams:lecturer>
+<exams:grade>6</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Mechanics</exams:name>
+<exams:lecturer>prof. Borovska</exams:lecturer>
+<exams:grade>3</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Programming</exams:name>
+<exams:lecturer>prof. Nakov</exams:lecturer>
+<exams:grade>5</exams:grade>
+</exams:exam>
+</exams:examList>
+</students:student>
+
+
+
+<students:student>
+<students:firstName>Petar</students:firstName>
+<students:lastName>Trandov</students:lastName>
+<students:gender>Male</students:gender>
+<students:birthdate>09.07.1995</students:birthdate>
+<students:phone>0983533122</students:phone>
+<students:email>ptrandov@uni.bg</students:email>
+<students:course>2</students:course>
+<students:specialty>Practical Mathematics</students:specialty>
+<students:facultyNumber>2912</students:facultyNumber>
+<exams:examList>
+
+<exams:exam>
+<exams:name>Mathematics</exams:name>
+<exams:lecturer>Prof. Ronkov</exams:lecturer>
+<exams:grade>3</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Physics</exams:name>
+<exams:lecturer>Prof. Koprinkov</exams:lecturer>
+<exams:grade>4</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Australian</exams:name>
+<exams:lecturer>doc. Dundy</exams:lecturer>
+<exams:grade>5</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Mechanics</exams:name>
+<exams:lecturer>prof. Borovska</exams:lecturer>
+<exams:grade>6</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Programming</exams:name>
+<exams:lecturer>prof. Nakov</exams:lecturer>
+<exams:grade>5</exams:grade>
+</exams:exam>
+</exams:examList>
+</students:student>
+
+
+
+<students:student>
+<students:firstName>Poli</students:firstName>
+<students:lastName>Sasheva</students:lastName>
+<students:gender>Female</students:gender>
+<students:birthdate>01.05.1996</students:birthdate>
+<students:phone>21414323</students:phone>
+<students:email>psasheva@uni.bg</students:email>
+<students:course>5</students:course>
+<students:specialty>Computer Science</students:specialty>
+<students:facultyNumber>4352</students:facultyNumber>
+<exams:examList>
+
+<exams:exam>
+<exams:name>Mathematics</exams:name>
+<exams:lecturer>Prof. Ronkov</exams:lecturer>
+<exams:grade>2</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>PlaneSyncing</exams:name>
+<exams:lecturer>Prof. Koprinkov</exams:lecturer>
+<exams:grade>4</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Cooking</exams:name>
+<exams:lecturer>doc. Dundy</exams:lecturer>
+<exams:grade>3</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Swimming</exams:name>
+<exams:lecturer>prof. Borovska</exams:lecturer>
+<exams:grade>6</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Driving</exams:name>
+<exams:lecturer>prof. Nakov</exams:lecturer>
+<exams:grade>5</exams:grade>
+</exams:exam>
+</exams:examList>
+</students:student>
+
+
+
+<students:student>
+<students:firstName>Henry</students:firstName>
+<students:lastName>Porter</students:lastName>
+<students:gender>Unknown</students:gender>
+<students:birthdate>01.01.1900</students:birthdate>
+<students:phone>3242532</students:phone>
+<students:email>hporter@unknown.com</students:email>
+<students:course>3</students:course>
+<students:specialty>Magic</students:specialty>
+<students:facultyNumber>324</students:facultyNumber>
+<exams:examList>
+
+<exams:exam>
+<exams:name>LateNight Snacking</exams:name>
+<exams:lecturer>Prof. Snacky</exams:lecturer>
+<exams:grade>4</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Catching Mice</exams:name>
+<exams:lecturer>Prof. Tom</exams:lecturer>
+<exams:grade>4</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Transformation</exams:name>
+<exams:lecturer>doc. Dumbledor</exams:lecturer>
+<exams:grade>4</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Flying</exams:name>
+<exams:lecturer>prof. Dumbo</exams:lecturer>
+<exams:grade>4</exams:grade>
+</exams:exam>
+
+<exams:exam>
+<exams:name>Programming</exams:name>
+<exams:lecturer>prof. Nakov</exams:lecturer>
+<exams:grade>4</exams:grade>
+</exams:exam>
+</exams:examList>
+</students:student>
+
+
+
+</students>

@@ -44,6 +44,8 @@ public:
 	void setSpeciality(const string& speciality);
 	void printInfo();
 	void addExam(Exam* exam);
+	double calcAverage();
+
 
 private:
 	string firstName;

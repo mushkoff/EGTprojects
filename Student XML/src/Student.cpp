@@ -134,8 +134,26 @@ void Student::printInfo() {
 	{
 		examObject[i]->printInfo();
 	}
+	cout<<"Avarage grade is: "<<calcAverage()<<endl;
+
 }
 
 void Student::addExam(Exam* exam) {
     examObject.push_back(exam);
+}
+
+double Student::calcAverage()
+{
+	double result = 0;
+	double grades = 0;
+
+
+	for(unsigned int i = 0; i < examObject.size(); i++)
+	{
+
+     grades = grades + examObject[i]->getGrade();
+
+
+	}
+	return result = grades / examObject.size();
 }

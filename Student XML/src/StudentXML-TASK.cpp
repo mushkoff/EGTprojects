@@ -14,16 +14,15 @@
 
 using namespace std;
 
-int main() {
-
-
+int main()
+{
+	//changed tab and code structuring
 
 	FileOperrands fo;
 
 	fo.traversing();
 	fo.printByMap();
-
-
+	cout << endl;
 
 
 	return 0;

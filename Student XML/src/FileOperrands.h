@@ -24,13 +24,16 @@ public:
 	FileOperrands();
 	void traversing();
 	void printByMap();
+	double calculateGrades();
 
 
 
+
+	vector<Student*> studentObject;
 	virtual ~FileOperrands();
 private:
 
-	vector<Student*> studentObject;
+
 	map<int, Student*> mapS;
 };
 

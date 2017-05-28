@@ -1,0 +1,28 @@
+<menu>
+	<meal type="Pork">
+		<name>Honeyd pork</name>
+		<description>honey, pork steak, picantina</description>
+		<price>19.80</price>
+	</meal>
+	<meal type="Chicken">
+		<name>Mustard Chicken</name>
+		<description>mustard, chicken slices, eggs, ketchup</description>
+		<price>17.88</price>
+	</meal>
+	<meal type="Beef">
+		<name>Beef Burger</name>
+		<description>fined beef stek, garlic, green salad</description>
+		<price>21.22</price>
+	</meal>
+	<meal type="Veggie">
+		<name>Happy Veggie</name>
+		<description>grilled vegetables, tomates syrup</description>
+		<price>15.55</price>
+	</meal>
+	<meal type="Restourant Spec">
+		<name>Holesterolic Bomb</name>
+		<description>pork slices, combinet with garlic, bacon and eggs</description>
+		<price>55.67</price>
+	</meal>
+</menu>
+

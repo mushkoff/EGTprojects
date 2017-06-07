@@ -20,8 +20,6 @@ SDL_Window* myWindow = NULL;
 
 SDL_Surface* screenSurface = NULL;
 
-SDL_Surface* loadSurface(std::string path);
-
 int main(int argc, char* args[])
 {
 

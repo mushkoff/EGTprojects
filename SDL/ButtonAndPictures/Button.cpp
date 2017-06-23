@@ -21,8 +21,8 @@ Button::~Button()
 
 bool Button::isClicked(int x, int y)
 {
-	if (x >= getX() && x <= button_width + getX() && y >= getY()
-			&& y <= getY() + button_height)
+	if (x >= 600 && x <= button_width + 600 && y >= 400
+			&& y <= 400 + button_height)
 	{
 		return true;
 

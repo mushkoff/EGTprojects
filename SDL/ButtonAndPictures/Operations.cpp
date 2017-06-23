@@ -130,9 +130,12 @@ void Operations::Free()
 
 }
 
-void Operations::render(SDL_Rect& rectButton, SDL_Texture* newTexture)
+void Operations::render(SDL_Rect &rectButton, SDL_Texture* newTexture)
 {
 	SDL_RenderCopy(myRender, newTexture, NULL, &rectButton);
+//	SDL_Rect renderQuad =
+//	{ x, y, button_width, button_height };
+//	SDL_RenderCopy(myRender, newTexture, NULL, &renderQuad);
 }
 
 SDL_Texture * &Operations::getBackGround()
@@ -190,10 +193,10 @@ SDL_Texture* Operations::loadTexture(std::string texturePath)
 //
 //}
 {
-	//The final texture
+//The final texture
 	SDL_Texture* newTexture = NULL;
 
-	//Load image at specified path
+//Load image at specified path
 	SDL_Surface* loadedSurface = IMG_Load(texturePath.c_str());
 	if (loadedSurface == NULL)
 	{
@@ -233,9 +236,11 @@ void Operations::freeTexture(SDL_Texture* textureToDel)
 	SDL_DestroyTexture(textureToDel);
 	textureToDel = NULL;
 }
-void Operations::modifyPic(SDL_Rect &newRect)
+void Operations::modifyPic(SDL_Rect& newRect, int size)
 {
-	newRect.w += 15;
-	newRect.h += 15;
+
+	newRect.w += size;
+	newRect.h += size;
 
 }
+

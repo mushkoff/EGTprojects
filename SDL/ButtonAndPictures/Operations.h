@@ -29,9 +29,11 @@ public:
 
 	void loadMedia();
 	void Free();
+
+//	void render(int x, int y, SDL_Texture* newTexture);
 	void render(SDL_Rect &rectButton, SDL_Texture* newTexture);
 	void freeTexture(SDL_Texture* textureToDel);
-	void modifyPic(SDL_Rect &newRect);
+	void modifyPic(SDL_Rect& newRect, int size);
 
 	SDL_Texture*& getBackGround();
 	SDL_Texture*& getTextureFirstPic();
